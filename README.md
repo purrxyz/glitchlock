@@ -1,7 +1,7 @@
 # glitchlock
-The glitchy X locker. Inspired by [xero/glitchlock](https://github.com/xero/glitchlock).
-
 This little add-on is for [moolen/glithclock](https://github.com/moolen/glitchlock), I founded usefull to have a systemd user service for autostart, so added that. It uses xautolock from it can be specified the time interval to lock the screen. 
+
+The glitchy X locker. Inspired by [xero/glitchlock](https://github.com/xero/glitchlock).
 
 For additional "security" :trollface: glitchlock uses Tesseract's OCR engine to find characters on the screen and crosses them out. That's optional.
 
