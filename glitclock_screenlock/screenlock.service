@@ -1,0 +1,12 @@
+[Unit]
+Description=lock screen after a few minutes of inactivity
+
+[Service]
+Type=simple
+Environment=DISPLAY=:0
+RestartSec=10s
+Restart=on-failure
+ExecStart=/usr/bin/xautolock -detectsleep -time 1 -locker "/home/user/.local/bin/glitchlock -password none"
+
+[Install]
+WantedBy=default.target
